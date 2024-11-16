@@ -85,7 +85,6 @@ inputText.change(function () {
   handleMessage();
 });
 
-
 // event handler to detect new vigenere key
 vigenereText.change(function () {
   vigenereKey = $("#vigenereKey").val();
@@ -268,6 +267,5 @@ function beep() {
 
 function boop() {
   new Audio(audioUrl).play();
-
 }
 //setInterval(beep, 5000);
